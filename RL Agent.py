@@ -4,13 +4,6 @@ Created on Sun Mar 27 12:41:07 2022
 
 @author: Jasper Havenhand
 """
-# import gym
-# env = gym.make('Alien-v0', render_mode='human')
-# env.reset()
-# for _ in range(1000):
-#     env.step(env.action_space.sample()) # take a random action
-# env.close()
-
 import gym
 env = gym.make('Alien-v0', render_mode='human')
 for i_episode in range(20):
